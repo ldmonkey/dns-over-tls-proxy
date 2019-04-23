@@ -15,7 +15,7 @@ To build a docker container just run the following command
   
 To run the docker container 
 
-  - docker run -d --name dns-proxy -e DNS_SERVER=1.1.1.1 -e DNS_PORT=853 -p 12853:12853
+  - docker run -d --name dns-proxy -e DNS_SERVER=1.1.1.1 -e DNS_PORT=853 -p 12853:12853 dns-proxy
 
 To test the setup
 
